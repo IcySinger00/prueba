@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="./css/styles-login.css">
+    </head>
+    <body>
+        <div  class="fondo">
+            <div class="grids">
+                <div><a href="./index.html"><img src="./img/logo.jpg" alt="" class="logo"></a></div>
+                <div><a href="./index.html" class="gridd">Home</a></div>
+                <div><a href="./imagenes.html" class="gridd">Galería de imágenes</a></div>
+                <details class="gridd">
+                    <summary style="cursor: pointer;" class="gridd sum">Información de la página</summary>
+                    <a href="./autor.html" class="gridd" style="padding-bottom: 0px;">Acerca del autor</a>
+                    <a href="./acerca-sitio.html" class="gridd" style="padding-top: 5px;">Acerca del sitio</a>
+                </details>
+                <div><a href="./contacto.html" class="gridd">Contacto</a></div>
+                <div><a href="./login.html" class="gridd login">Login</a></div>
+            </div>
+            <div class="loginfor">
+                <form action="./php/login.php" method="POST">
+                    <label for="nombre" id="label1">Nombre de usuario</label><br>
+                    <input type="text" name="nombre" id="nombre" required placeholder="Usuario"><br><br>
+                    <label for="contrasena" id="label2">Contraseña</label><br>
+                    <input type="password" name="contrasena" id="contrasena" required placeholder="Contraseña" minlength="5" maxlength="8"><br><br>
+                    <input type="submit" value="Iniciar sesión" id="btn">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

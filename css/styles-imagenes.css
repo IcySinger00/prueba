@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+  }
+/*Logo de barra de navegación*/
+.logo{
+    width: 75px;
+    height: 60px;
+}
+/*Fondo de pantalla*/
+.fondo{
+    background: url(../img/fondo-carding.jpg);
+}
+/*Grind de menu de navegación*/
+.grids{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: white;
+}
+.grids .gridd{
+	display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+    font-family: cursive;
+}
+.grids .gridd:hover{
+    color: white;
+}
+.grids .login{
+    padding: 10px 25px;
+    background-color: grey; 
+    border-radius: 50px;
+    color: white;
+    margin-top: 15px;
+    width: 40px;
+}
+.grids .login:hover{
+    background-color: red;
+    color: white;
+}
+.grids .sum::marker{
+    marker: none;
+
+}
+.grids .sum{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/*IMAGENES*/
+.img{
+    display: grid;
+    grid-template-columns: 300px repeat(3,1fr);
+    grid-gap: 70px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 5px;
+    border-style: double;
+    border-color:grey
+}

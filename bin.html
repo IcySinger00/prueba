@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/estilos-bin.css">
+        <title>Bineo</title>
+    </head>
+    <body class="fondo">
+            <div class="grids">
+                <div><a href="./index.html"><img src="./img/logo.jpg" alt="" class="logo"></a></div>
+                <div><a href="./index.html" class="gridd">Home</a></div>
+                <div><a href="./imagenes.html" class="gridd">Galería de imágenes</a></div>
+                <details class="gridd">
+                    <summary style="cursor: pointer;" class="gridd sum">Información de la página</summary>
+                    <a href="./autor.html" class="gridd" style="padding-bottom: 0px;">Acerca del autor</a>
+                    <a href="./acerca-sitio.html" class="gridd" style="padding-top: 5px;">Acerca del sitio</a>
+                </details>
+                <div><a href="./contacto.html" class="gridd">Contacto</a></div>
+                <div><a href="./login.html" class="gridd login">Login</a></div>
+            </div>
+        <div>
+            <h1 id="titulobin" style="color: white;">¿Que es el bineo?</h1>
+            <img src="img/bin.jpg" alt="BIN"><br>
+            <em style="color: white;">El BIN (numero de identificación de banco) son los primeros seis números de una tarjeta de credito o debito.</em>
+        </div>
+        <div>
+            <h2 style="color: white;">Bineo</h2>
+            <p style="color: white;">El binear consta de muchas partes y es lo esencial para aprender sobre carding.
+            prácticamente binear es tomar los 6 números de una tarjeta y generar más números de tarjetas que
+            contengan los 16 números, la fecha y el cvv, y con estas tarjetas generados poder sacar suscripciones 
+            que es lo más básico.
+            </p>
+        </div>
+        <div>
+            <h2 style="color: white;">Los datos reales de mi tarjeta se pueden generar solo con el BIN</h2>
+            <p style="color: white;">Para generar los numeros de tarjetas se utiliza una herramienta llamada Namso CCGen, la cual
+            puede ser encontrada en Google o bien descargando la desde la Play Store. Es muy dificil que solo 
+            con el BIN se genere la misma numeracion, con fecha y cvv exactos de una tarjeta que sea de una persona, y claro que la tarjeta este funcionando.
+            </p>
+            <h3 style="color: white;">¿Como funciona Namso CCGen?</h3>
+            <p style="color: white;">El funcionamiento de Namso es bastante sencillo solo tomas un BIN y lo colocas en el generador,
+            Namso utiliza el algoritmo de Luhn para generar los 16 números validos, la fecha y el cvv son completamente aleatorios, aunque esto
+            se puede configurar para colocar una fecha y cvv específicos.
+            </p>
+            <img src="img/namso.png" alt="Namso" width="450" height="250">
+        </div>
+        <div>
+            <h2 style="color: white;">¿Quien es el afectado en el bineo?</h2>
+            <p style="color: white;">El bineo no afecta directamente a una persona (puede haber casos en los que si, pero es muy raro), el verdadero
+            afectado en el bineo son las empresas que dan algun tipo de servicio, ya sea para escuchar musica o ver peliculas.
+            Y son afectas porque al binear esos servicios y sacar suscripciones con numeros de tarjetas que probablemente ni sean validos
+            (fecha y cvv). Pongamos un ejemplo, un servicio de musica muy bineado y muy conocido es Tidal, este servicio te da la opcion
+            de una prueba gratuita de 30 días, y obviamente al terminar esa prueba te realizaran el cargo a tu tarjeta. Y es ahí donde
+            esta el problema ya que si tu bineaste es casi imposible que ellos puedan realizar el cargo a la tarjeta, aunque existe
+            la posibilidad que es muy minima de que si puedan realizar el cobro y es en ese momento cuando si estas afectando a un persona
+            pues lo datos que fueron introducidos para crear la cuenta eran validos o que la tarjeta estaba <em>LIVE</em>.
+            </p>
+        </div>
+        <div>
+            <h2 style="color: white;">Tipos de bineo</h2>
+            <p style="color: white;">Existen diversos tipos de bineo entre ellos estan los siguientes:</p>
+            <dl style="color: white;">
+                <dt>Bineo a suscripciones</dt>
+                <dd>Constan te sacar suscripciones premium como puede ser Tidal, Napster, Deezer, entre otros.</dd>
+                <dt>Bineo para compras físicas</dt>
+                <dd>Este tipo de bineo es para poder realizar compras fisicas,
+                pero se aplica en pasarelas de pagos muy especificas como puede ser: Shop Pay y Stripe.</dd>
+                <dt>Bineo para viajes y comida</dt>
+                <dd>Este tipo de bineo es para sacar viajes ya sea en Uber o Lyft, y en el apartado de comida
+                encontramos a Uber Eats, Pronto y en paz descanse SinDelantal.
+                </dd>
+            </dl>
+        </div>
+        <div>
+            <h2 style="color: white;">Sancando le provecho al BIN de mi tarjeta</h2>
+            <p style="color: white;">Si usted que esta leyendo esto tiene alguna tarjeta de credito o debito, y desea probar algun servicio de musica
+            sin realizar ningun pago, puede ocupar el BIN de su tarjeta. Solo es tomar los primeros 6 numeros de la tarjeta y
+            colocarlos en Namso y generar las tarjetas. Las tarjetas generadas las puede pasar por servicios de musica ya que son 
+            los más faciles de binear, porque para uber o compras se necesitan metodos. Pero esto se explicara más a fondo en el apartado
+            de BINS.
+
+            </p>
+        </div>
+    </body>
+</html>
